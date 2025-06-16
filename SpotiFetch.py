@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
-"""
-Revamped Spotify-to-MP3 downloader (Final Fix)
-- Sequential [i/total] output only on completion or skip
-- Green coloring for status messages
-- Graceful Ctrl+C handling
-"""
+from bootstrap import check_and_install
+check_and_install()
+
 import os
 import sys
 import json
